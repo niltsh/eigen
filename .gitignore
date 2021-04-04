@@ -35,3 +35,6 @@ lapack/reference
 .*project
 .settings
 Makefile
+eigenTest/DerivedData
+eigenTest/eigenTest.xcodeproj/xcuserdata
+eigenTest/eigenTest.xcodeproj/project.xcworkspace/xcuserdata
