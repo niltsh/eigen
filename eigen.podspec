@@ -24,8 +24,9 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  # spec.description  = <<-DESC
+  # Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+  #                  DESC
 
   spec.homepage     = "http://eigen.tuxfamily.org/index.php?title=Main_Page"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -39,7 +40,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MPL 2.0"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = { :type => "MPL 2.0", :file => "COPYING.README" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  # spec.platform     = :ios, "12.3"
 
   #  When using multiple platforms
   spec.ios.deployment_target = "12.3"
@@ -90,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Eigen/*", "Eigen/**/*"
+  # spec.source_files  = "Eigen/*", "Eigen/**/*"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -130,8 +131,10 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   spec.requires_arc = false
+  # spec.static_framework = true
 
   spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/eigen" }
+  spec.compiler_flags = '-DEIGEN_MPL2_ONLY'
   # spec.dependency "JSONKit", "~> 1.4"
 
 end
