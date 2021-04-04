@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "eigen"
-  spec.version      = "3.3.9"
+  spec.version      = "3.3.9.1"
   spec.summary      = "Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
 
   # This description is used to generate tags and improve search results.
