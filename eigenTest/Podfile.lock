@@ -2,15 +2,15 @@ PODS:
   - eigen (3.3.9)
 
 DEPENDENCIES:
-  - eigen (from `https://raw.githubusercontent.com/niltsh/eigen/3.3/eigen.podspec`)
+  - eigen
 
-EXTERNAL SOURCES:
-  eigen:
-    :podspec: https://raw.githubusercontent.com/niltsh/eigen/3.3/eigen.podspec
+SPEC REPOS:
+  https://github.com/SkyroadJP/Cocoapods-Specs.git:
+    - eigen
 
 SPEC CHECKSUMS:
-  eigen: 7be58d4eb6798f7efbb4c96c19a1e49ac5636f66
+  eigen: 261efb69b22d4906fde7f68a58df23446746495a
 
-PODFILE CHECKSUM: 50d166edd57f88a52756822d8c528a9fb9d55e6f
+PODFILE CHECKSUM: af15ba9e64afc4169efc920e5dab5a82f46cfdb2
 
 COCOAPODS: 1.10.1
