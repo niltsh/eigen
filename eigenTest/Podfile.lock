@@ -1,0 +1,16 @@
+PODS:
+  - eigen (3.3.9)
+
+DEPENDENCIES:
+  - eigen (from `https://raw.githubusercontent.com/niltsh/eigen/3.3/eigen.podspec`)
+
+EXTERNAL SOURCES:
+  eigen:
+    :podspec: https://raw.githubusercontent.com/niltsh/eigen/3.3/eigen.podspec
+
+SPEC CHECKSUMS:
+  eigen: 7be58d4eb6798f7efbb4c96c19a1e49ac5636f66
+
+PODFILE CHECKSUM: 50d166edd57f88a52756822d8c528a9fb9d55e6f
+
+COCOAPODS: 1.10.1

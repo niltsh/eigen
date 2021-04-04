@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8601CD9C2619A57D004E8140 /* eigenTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8601CD892619A57B004E8140 /* eigenTestApp.swift */; };
-		8601CD9D2619A57D004E8140 /* eigenTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8601CD892619A57B004E8140 /* eigenTestApp.swift */; };
-		8601CD9E2619A57D004E8140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8601CD8A2619A57B004E8140 /* ContentView.swift */; };
-		8601CD9F2619A57D004E8140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8601CD8A2619A57B004E8140 /* ContentView.swift */; };
+		52747CA8C2FCE0A8F5940478 /* Pods_eigenTest__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586BF8D26B855B36ED640432 /* Pods_eigenTest__macOS_.framework */; };
+		7D98E4FFC595A955A4852029 /* Pods_eigenTest__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D174ED309A92BDAC0F1BC4 /* Pods_eigenTest__iOS_.framework */; };
 		8601CDA02619A57D004E8140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8601CD8B2619A57D004E8140 /* Assets.xcassets */; };
 		8601CDA12619A57D004E8140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8601CD8B2619A57D004E8140 /* Assets.xcassets */; };
+		8601CDB62619BD47004E8140 /* eigenTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8601CDB42619BD47004E8140 /* eigenTest.cpp */; };
+		8601CDB72619BD47004E8140 /* eigenTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8601CDB42619BD47004E8140 /* eigenTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8601CD892619A57B004E8140 /* eigenTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eigenTestApp.swift; sourceTree = "<group>"; };
-		8601CD8A2619A57B004E8140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10F95EE23828E137ECE6A232 /* Pods-eigenTest (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigenTest (iOS).debug.xcconfig"; path = "Target Support Files/Pods-eigenTest (iOS)/Pods-eigenTest (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		285EEF17F1969AB04F1E0350 /* Pods-eigenTest (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigenTest (macOS).debug.xcconfig"; path = "Target Support Files/Pods-eigenTest (macOS)/Pods-eigenTest (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		2BCD8F60859ACAD826126B8D /* Pods-eigenTest (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigenTest (macOS).release.xcconfig"; path = "Target Support Files/Pods-eigenTest (macOS)/Pods-eigenTest (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		586BF8D26B855B36ED640432 /* Pods_eigenTest__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eigenTest__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D791E8BCF42F39C3CC1A35F /* Pods-eigenTest (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eigenTest (iOS).release.xcconfig"; path = "Target Support Files/Pods-eigenTest (iOS)/Pods-eigenTest (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		8601CD8B2619A57D004E8140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8601CD902619A57D004E8140 /* eigenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eigenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8601CD932619A57D004E8140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8601CD982619A57D004E8140 /* eigenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eigenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8601CD9A2619A57D004E8140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8601CD9B2619A57D004E8140 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8601CDB22619BD47004E8140 /* eigenTest (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eigenTest (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		8601CDB32619BD47004E8140 /* eigenTest (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eigenTest (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		8601CDB42619BD47004E8140 /* eigenTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = eigenTest.cpp; sourceTree = "<group>"; };
+		8601CDB52619BD47004E8140 /* eigenTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = eigenTest.hpp; sourceTree = "<group>"; };
+		A5D174ED309A92BDAC0F1BC4 /* Pods_eigenTest__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eigenTest__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D98E4FFC595A955A4852029 /* Pods_eigenTest__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,12 +47,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52747CA8C2FCE0A8F5940478 /* Pods_eigenTest__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362200F8B4D2736461E66273 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5D174ED309A92BDAC0F1BC4 /* Pods_eigenTest__iOS_.framework */,
+				586BF8D26B855B36ED640432 /* Pods_eigenTest__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49EB3C6347D80A88C4CFEB31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10F95EE23828E137ECE6A232 /* Pods-eigenTest (iOS).debug.xcconfig */,
+				7D791E8BCF42F39C3CC1A35F /* Pods-eigenTest (iOS).release.xcconfig */,
+				285EEF17F1969AB04F1E0350 /* Pods-eigenTest (macOS).debug.xcconfig */,
+				2BCD8F60859ACAD826126B8D /* Pods-eigenTest (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8601CD832619A57A004E8140 = {
 			isa = PBXGroup;
 			children = (
@@ -51,15 +81,19 @@
 				8601CD922619A57D004E8140 /* iOS */,
 				8601CD992619A57D004E8140 /* macOS */,
 				8601CD912619A57D004E8140 /* Products */,
+				49EB3C6347D80A88C4CFEB31 /* Pods */,
+				362200F8B4D2736461E66273 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8601CD882619A57B004E8140 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				8601CD892619A57B004E8140 /* eigenTestApp.swift */,
-				8601CD8A2619A57B004E8140 /* ContentView.swift */,
 				8601CD8B2619A57D004E8140 /* Assets.xcassets */,
+				8601CDB42619BD47004E8140 /* eigenTest.cpp */,
+				8601CDB52619BD47004E8140 /* eigenTest.hpp */,
+				8601CDB22619BD47004E8140 /* eigenTest (iOS)-Bridging-Header.h */,
+				8601CDB32619BD47004E8140 /* eigenTest (macOS)-Bridging-Header.h */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -97,6 +131,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8601CDA42619A57D004E8140 /* Build configuration list for PBXNativeTarget "eigenTest (iOS)" */;
 			buildPhases = (
+				CC42381BBE662753054E0CDC /* [CP] Check Pods Manifest.lock */,
 				8601CD8C2619A57D004E8140 /* Sources */,
 				8601CD8D2619A57D004E8140 /* Frameworks */,
 				8601CD8E2619A57D004E8140 /* Resources */,
@@ -114,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8601CDA72619A57D004E8140 /* Build configuration list for PBXNativeTarget "eigenTest (macOS)" */;
 			buildPhases = (
+				9AD3DF64CE1DAAA01C2C41BD /* [CP] Check Pods Manifest.lock */,
 				8601CD942619A57D004E8140 /* Sources */,
 				8601CD952619A57D004E8140 /* Frameworks */,
 				8601CD962619A57D004E8140 /* Resources */,
@@ -138,9 +174,11 @@
 				TargetAttributes = {
 					8601CD8F2619A57D004E8140 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					8601CD972619A57D004E8140 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -182,13 +220,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9AD3DF64CE1DAAA01C2C41BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eigenTest (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC42381BBE662753054E0CDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eigenTest (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8601CD8C2619A57D004E8140 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8601CD9E2619A57D004E8140 /* ContentView.swift in Sources */,
-				8601CD9C2619A57D004E8140 /* eigenTestApp.swift in Sources */,
+				8601CDB62619BD47004E8140 /* eigenTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8601CD9F2619A57D004E8140 /* ContentView.swift in Sources */,
-				8601CD9D2619A57D004E8140 /* eigenTestApp.swift in Sources */,
+				8601CDB72619BD47004E8140 /* eigenTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,9 +400,11 @@
 		};
 		8601CDA52619A57D004E8140 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F95EE23828E137ECE6A232 /* Pods-eigenTest (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JQRW8D24U4;
 				ENABLE_PREVIEWS = YES;
@@ -332,6 +417,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tr.eigenTest;
 				PRODUCT_NAME = eigenTest;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/eigenTest (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,9 +426,11 @@
 		};
 		8601CDA62619A57D004E8140 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D791E8BCF42F39C3CC1A35F /* Pods-eigenTest (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JQRW8D24U4;
 				ENABLE_PREVIEWS = YES;
@@ -354,6 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tr.eigenTest;
 				PRODUCT_NAME = eigenTest;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/eigenTest (iOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -362,9 +452,11 @@
 		};
 		8601CDA82619A57D004E8140 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285EEF17F1969AB04F1E0350 /* Pods-eigenTest (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -380,15 +472,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tr.eigenTest;
 				PRODUCT_NAME = eigenTest;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/eigenTest (macOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		8601CDA92619A57D004E8140 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BCD8F60859ACAD826126B8D /* Pods-eigenTest (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -404,6 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tr.eigenTest;
 				PRODUCT_NAME = eigenTest;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/eigenTest (macOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

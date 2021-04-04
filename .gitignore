@@ -38,3 +38,6 @@ Makefile
 eigenTest/DerivedData
 eigenTest/eigenTest.xcodeproj/xcuserdata
 eigenTest/eigenTest.xcodeproj/project.xcworkspace/xcuserdata
+eigenTest/Pods
+eigenTest/eigenTest.xcworkspace/xcshareddata
+eigenTest/eigenTest.xcworkspace/xcuserdata
