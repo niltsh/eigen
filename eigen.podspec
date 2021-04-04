@@ -133,7 +133,10 @@ Pod::Spec.new do |spec|
   spec.requires_arc = false
   # spec.static_framework = true
 
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/eigen" }
+  spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(PODS_ROOT)/eigen",
+                   'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
+                   'CLANG_CXX_LIBRARY' => 'libc++'
+}
   spec.compiler_flags = '-DEIGEN_MPL2_ONLY'
   # spec.dependency "JSONKit", "~> 1.4"
 
